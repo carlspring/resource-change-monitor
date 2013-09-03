@@ -1,0 +1,3 @@
+
+- Make it possible to monitor classpath resources.
+- Make it possible to monitor URL based resources.
