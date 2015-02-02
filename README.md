@@ -29,7 +29,7 @@ In order to use the ResourceChangeMonitor, you will need to implement the Resour
                     System.out.println(event.getResourceFile().getCanonicalPath() + ": size has changed.");
                 }
 
-                if (event.getEventType() == ResourceChangeEvent.EVENT_RESOURCE_DELETED && !file3Deleted)
+                if (event.getEventType() == ResourceChangeEvent.EVENT_RESOURCE_DELETED)
                 {
                     System.out.println(event.getResourceFile().getCanonicalPath() + ": has been deleted.");
                 }
