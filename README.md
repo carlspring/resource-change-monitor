@@ -47,7 +47,7 @@ Then, in order to observe files for changes:
 
     Observer observer = new Observer();
 
-    ChangeMonitor monitor = new ChangeMonitor();
+    ResourceChangeMonitor monitor = new ResourceChangeMonitor();
     monitor.setInterval(1000); // Check for changes every second
     monitor.addResource(new Resource(file1, getHashFor(file1), 10 * 1024));
     monitor.addListener(observer);
